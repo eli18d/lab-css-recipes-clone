@@ -9,16 +9,92 @@ html {
   box-sizing: inherit;
 }
 
-body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+.header {
+  header-height: 650px;
+  background-image: url("../images/apple-pie.jpg");
+  background-position: 0px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 300px 0;
+  position: relative;}
+
+  #ApplePieTitel {
+    color: white;
+    text-align: center;
+    font-size: 5em;
+  }
+
+  #recipe-description {
+    font-size: 1em;
+    margin: 20px auto;
+    padding: 0 240px;
+    justify-content: space-evenly;
+    font-weight: lighter;
+    
+    
+  }
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+body  {
   margin: 0;
   padding: 0;
   font-weight: lighter;
-}
-
-/*  Set the font */
-body {
+  font-size: 15px;
+  list-style: none;
   font-family: "Helvetica", sans-serif;
 }
+
+h1, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: lighter;
+  font-size: 1.5em;
+  
+}
+
+ol, ul  { 
+  font-weight: lighter;
+  font-size: 1.5em;
+  padding: 0 80px;
+  line-height: 1.5em;
+}
+
+  p {
+    font-weight: lighter;
+    font-size: 1.8em;
+    padding: 0 100px;
+    line-height: 1.5em;
+    text-align: center;
+   
+  }
+  
+
+
+
+h2 {
+  font-size: 2em;
+  margin:0 50px;
+  padding:20px 0;
+  font-weight: lighter; 
+  
+}
+ 
+article {
+  
+  text-align: justify;
+  margin: 0px;
+  padding: 0 70px;
+  color: #464646;
+  line-height: 1.5em;
+}
+
+
+
+/*  Set the font */
+
 
 /* STYLES */
 /* Write your CSS below */
