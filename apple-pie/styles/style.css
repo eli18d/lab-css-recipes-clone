@@ -5,7 +5,9 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -16,30 +18,32 @@ html {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 300px 0;
-  position: relative;}
+  position: relative;
+}
 
-  #ApplePieTitel {
-    color: white;
-    text-align: center;
-    font-size: 5em;
-  }
+#ApplePieTitel {
+  color: white;
+  text-align: center;
+  font-size: 5em;
+}
 
-  #recipe-description {
-    font-size: 1em;
-    margin: 20px auto;
-    padding: 0 240px;
-    justify-content: space-evenly;
-    font-weight: lighter;
-    
-    
-  }
+#recipe-description {
+  font-size: 1em;
+  margin: 20px auto;
+  padding: 0 240px;
+  justify-content: space-evenly;
+  font-weight: lighter;
+
+
+}
+
 .image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-body  {
+body {
   margin: 0;
   padding: 0;
   font-weight: lighter;
@@ -48,53 +52,50 @@ body  {
   font-family: "Helvetica", sans-serif;
 }
 
-h1, h3, h4, h5, h6 {
+h1,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
   font-weight: lighter;
   font-size: 1.5em;
-  
+
 }
 
-ol, ul  { 
+ol,
+ul {
   font-weight: lighter;
   font-size: 1.5em;
   padding: 0 80px;
   line-height: 1.5em;
 }
 
-  p {
-    font-weight: lighter;
-    font-size: 1.8em;
-    padding: 0 100px;
-    line-height: 1.5em;
-    text-align: center;
-   
-  }
-  
+p {
+  font-weight: lighter;
+  font-size: 1.8em;
+  padding: 0 100px;
+  line-height: 1.5em;
+  text-align: center;
+
+}
+
 
 
 
 h2 {
   font-size: 2em;
-  margin:0 50px;
-  padding:20px 0;
-  font-weight: lighter; 
-  
+  margin: 0 50px;
+  padding: 20px 0;
+  font-weight: lighter;
+
 }
- 
+
 article {
-  
+
   text-align: justify;
   margin: 0px;
   padding: 0 70px;
   color: #464646;
   line-height: 1.5em;
 }
-
-
-
-/*  Set the font */
-
-
-/* STYLES */
-/* Write your CSS below */
