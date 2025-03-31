@@ -11,31 +11,24 @@ html {
   box-sizing: inherit;
 }
 
-.header {
-  header-height: 650px;
+header {
   background-image: url("../images/apple-pie.jpg");
   background-position: 0px 0;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 300px 0;
   position: relative;
+  
+  
 }
 
-#ApplePieTitel {
+.mainTitel {
   color: white;
   text-align: center;
-  font-size: 5em;
+  font-size: 4em;
 }
 
-#recipe-description {
-  font-size: 1em;
-  margin: 20px auto;
-  padding: 0 240px;
-  justify-content: space-evenly;
-  font-weight: lighter;
 
-
-}
 
 .image {
   display: flex;
@@ -52,16 +45,6 @@ body {
   font-family: "Helvetica", sans-serif;
 }
 
-h1,
-h3,
-h4,
-h5,
-h6 {
-  margin: 0;
-  font-weight: lighter;
-  font-size: 1.5em;
-
-}
 
 ol,
 ul {
@@ -90,6 +73,8 @@ ol li::before {
 }
 
 
+
+
 p {
   font-weight: lighter;
   font-size: 1.8em;
@@ -110,11 +95,12 @@ h2 {
 
 }
 
-article {
+.container {
 
   text-align: justify;
   margin: 0px;
   padding: 0 70px;
   color: #464646;
   line-height: 1.5em;
+  
 }
