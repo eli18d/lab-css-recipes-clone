@@ -71,6 +71,25 @@ ul {
   line-height: 1.5em;
 }
 
+ol {
+  list-style-type: none;
+  counter-reset: my-counter;
+
+}
+
+ol li {
+  counter-increment: my-counter;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+ol li::before {
+  content: counter(my-counter) ") ";
+  position: absolute;
+  left: -25px;
+}
+
+
 p {
   font-weight: lighter;
   font-size: 1.8em;
